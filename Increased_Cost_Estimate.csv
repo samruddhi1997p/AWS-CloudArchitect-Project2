@@ -18,3 +18,7 @@ Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,37.52,450
 ,,,,,,,
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+The EC2 instance type was changed from t2.large to t2.xlarge.,,,,,,,
+"In the VPC, the data transfer was upgraded to paid Internet for outbound.",,,,,,,
+The database capacity of RDS was increased by selecting db.m5.24xlarge with a memory of 384GiB and CPU 96,,,,,,,
