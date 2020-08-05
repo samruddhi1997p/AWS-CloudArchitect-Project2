@@ -1,7 +1,5 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1131.9,13582.8,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t2.large)"
-Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,2215.81,26589.72,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t2.xlarge)"
-Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,954.45,11453.4,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1131.9,13582.8,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t2.large)"
 Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1876.05,22512.6,USD,Number of NAT Gateways (1)
 Increased_Cost_Estimate,US East (N. Virginia),S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
 Increased_Cost_Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 1 TB per month 
@@ -11,14 +9,11 @@ Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC)
  Outbound (to: Internet) 25 TB per month 
  Intra-Region 0 TB per month 
 "
-Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,4629.59,55555.08,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Additional backup storage (5 GB)"
-Increased_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,12945.75,155349,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Additional backup storage (5 GB)"
-Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,37.52,450.24,USD,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,12767.19,153206.28,USD,"Quantity (2), Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (1500), Storage amount (2 TB per month), Additional backup storage (5 GB)"
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,114.61,1375.32,USD,Number of Application Load Balancers (2)
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
 ,,,,,,,
-The EC2 instance type was changed from t2.large to t2.xlarge.,,,,,,,
-"In the VPC, the data transfer was upgraded to paid Internet for outbound.",,,,,,,
-The database capacity of RDS was increased by selecting db.m5.24xlarge with a memory of 384GiB and CPU 96,,,,,,,
+"The DB was made Multi AZ and upgraded the storage volume to provisioned IOPS SSD, increased specification of load balancers, NAT,  and S3. The data tranfer for outbound is done to CloudFront",,,,,,,
