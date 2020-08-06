@@ -11,7 +11,7 @@ Reduced_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0
 "
 Reduced_Cost_Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,4466.362,53596.34,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Additional backup storage (5 GB)"
 Reduced_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,114.61,1375.32,USD,Number of Application Load Balancers (2)
-,,,,,,,
+,,,,6029.742,72356.9,,
 ,,,,,,,
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
